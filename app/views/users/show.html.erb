@@ -1,0 +1,10 @@
+<div class="row">
+  <aside class="span6">
+    <section>
+		<h1>
+			<%= gravatar_for @user %>
+			<%= @user.first_name %> <%= @user.last_name unless @user.last_name == nil %>, <%= @user.email %>
+		</h1>
+    </section>
+  </aside>
+</div>
