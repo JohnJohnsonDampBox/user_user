@@ -6,9 +6,7 @@ describe "Authentication" do
     before { visit signin_path }
 
     describe "with invalid information" do
-      before { click_button "Sign in" }
-	
-	 
+      before { click_button "Sign in" } 
     end
   end
 end
